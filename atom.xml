@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Earyant的技术博客</title>
+  
+  <subtitle>欢迎来到Earyant的技术博客，在这里我将与你分享新技术。</subtitle>
+  <link href="http://earyant.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://earyant.github.io/"/>
+  <updated>2022-03-31T07:06:27.000Z</updated>
+  <id>http://earyant.github.io/</id>
+  
+  <author>
+    <name>Earyant</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java书单</title>
+    <link href="http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/Java%E4%B9%A6%E5%8D%95/"/>
+    <id>http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/Java%E4%B9%A6%E5%8D%95/</id>
+    <published>2022-03-31T07:06:27.000Z</published>
+    <updated>2022-03-31T07:06:27.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="书单" scheme="http://earyant.github.io/tags/%E4%B9%A6%E5%8D%95/"/>
+    
+    <category term="java" scheme="http://earyant.github.io/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习书单</title>
+    <link href="http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%A6%E5%8D%95/"/>
+    <id>http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%A6%E5%8D%95/</id>
+    <published>2022-03-31T07:00:25.000Z</published>
+    <updated>2022-03-31T07:00:25.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#机器学习&quot;&gt;机器学习&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#python实践&quot;&gt;python实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#深度学习&quot;&gt;深度学习&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#强化学习&quot;&gt;强化学习&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="书单" scheme="http://earyant.github.io/tags/%E4%B9%A6%E5%8D%95/"/>
+    
+    <category term="机器学习" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>8.高斯分布</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/8.%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/8.%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83/</id>
+    <published>2022-03-30T15:33:22.000Z</published>
+    <updated>2022-03-31T15:33:22.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7.概率分布</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/7.%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/7.%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83/</id>
+    <published>2022-03-30T14:33:22.000Z</published>
+    <updated>2022-03-31T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#概率分布&quot;&gt;概率分布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#分布一览&quot;&gt;分布一览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#1-伯努利分布&quot;&gt;1. 伯努利分布&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-二项分布&quot;&gt;2. 二项分布&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-beta-分布&quot;&gt;3. Beta 分布&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6.大数据问题</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/6.%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/6.%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98/</id>
+    <published>2022-03-30T13:33:22.000Z</published>
+    <updated>2022-03-30T11:17:03.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;大数据问题&quot;&gt;&lt;a href=&quot;#大数据问题&quot; class=&quot;headerlink&quot; title=&quot;大数据问题&quot;&gt;&lt;/a&gt;大数据问题&lt;/h1&gt;&lt;hr&gt;
+&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-数据流采样&quot;&gt;1. 数据流采样&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#k-1-时&quot;&gt;K = 1 时&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#k-1-时&quot;&gt;K &amp;gt; 1 时&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-基数统计&quot;&gt;2. 基数统计&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-hashset&quot;&gt;1. HashSet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-bitmap&quot;&gt;2. bitmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-linear-counting&quot;&gt;3. Linear Counting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-loglog-counting&quot;&gt;4. Loglog Counting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-hyperloglog-counting&quot;&gt;5. HyperLogLog Counting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-频率估计&quot;&gt;3. 频率估计&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-hashmap&quot;&gt;1. HashMap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-数据分片-hashmap&quot;&gt;2. 数据分片 + HashMap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-count-min-sketch&quot;&gt;3. Count-Min Sketch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-count-mean-min-sketch&quot;&gt;4. Count-Mean-Min Sketch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-heavy-hitters&quot;&gt;4. Heavy Hitters&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-hashmap-heap&quot;&gt;1. HashMap + Heap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-多机-hashmap-heap&quot;&gt;2. 多机 HashMap + Heap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-count-min-sketch-heap&quot;&gt;3. Count-Min Sketch + Heap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-lossy-counting&quot;&gt;4. Lossy Counting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-spacesaving&quot;&gt;5. SpaceSaving&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-范围查询&quot;&gt;5. 范围查询&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-array-of-count-min-sketches&quot;&gt;1. Array of Count-Min Sketches&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6-成员查询-bloom-filter&quot;&gt;6. 成员查询 - Bloom Filter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#1-从-n-个数中取-m-个数出来要求概率相等&quot;&gt;1. 从 N 个数中取 m 个数出来，要求概率相等&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-top-k-问题&quot;&gt;2. Top K 问题&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5.抽样方法</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/5.%E6%8A%BD%E6%A0%B7%E6%96%B9%E6%B3%95/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/5.%E6%8A%BD%E6%A0%B7%E6%96%B9%E6%B3%95/</id>
+    <published>2022-03-30T12:33:22.000Z</published>
+    <updated>2022-03-31T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#抽样方法&quot;&gt;抽样方法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#简单随机抽样&quot;&gt;简单随机抽样&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#分层采样&quot;&gt;分层采样&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#水塘采样&quot;&gt;水塘采样&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#随机欠采样和过采样&quot;&gt;随机欠采样和过采样&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#使用-imbalanced-learn-进行欠采样和过采样&quot;&gt;使用 imbalanced-learn 进行欠采样和过采样&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#结论&quot;&gt;结论&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#分层抽样的适用范围&quot;&gt;分层抽样的适用范围？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习知识整理</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</id>
+    <published>2022-03-30T11:17:03.000Z</published>
+    <updated>2022-03-30T11:17:03.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;机器学习相关知识点整理，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#编程语言相关&quot;&gt;编程语言相关&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#java&quot;&gt;java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#python&quot;&gt;python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#数学基础&quot;&gt;数学基础&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#抽样方法&quot;&gt;抽样方法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1分层抽样的适用范围&quot;&gt;1.分层抽样的适用范围？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#机器学习相关&quot;&gt;机器学习相关&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#线性回归和lr&quot;&gt;线性回归和LR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#gbdt-xgboost相关&quot;&gt;gbdt、xgboost相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#rf相关&quot;&gt;RF相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#kmeans相关&quot;&gt;kmeans相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#em-hmm-crf相关&quot;&gt;EM HMM CRF相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#决策树相关&quot;&gt;决策树相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#svm相关&quot;&gt;SVM相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#降维算法相关&quot;&gt;降维算法相关&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#各种ml模型比较&quot;&gt;各种ML模型比较&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#其他&quot;&gt;其他&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#深度学习相关&quot;&gt;深度学习相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#自然语言处理相关&quot;&gt;自然语言处理相关&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#手撕算法场景题&quot;&gt;手撕算法&amp;amp;场景题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#面经分享&quot;&gt;面经分享&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#一些有用的知识整理&quot;&gt;一些有用的知识整理&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="AL" scheme="http://earyant.github.io/tags/AL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.信息论</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/4.%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/4.%E4%BF%A1%E6%81%AF%E8%AE%BA/</id>
+    <published>2022-03-29T15:33:22.000Z</published>
+    <updated>2022-03-29T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#基本知识&quot;&gt;基本知识&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#1-自信息-信息熵互信息&quot;&gt;1. 自信息 ，信息熵，互信息&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#自信息-self-information&quot;&gt;自信息 - self-information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#信息熵-information-entropy&quot;&gt;信息熵 — information-entropy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#互信息&quot;&gt;互信息&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-相对熵kl散度-与-交叉熵&quot;&gt;2. 相对熵（KL散度） 与 交叉熵&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-相对熵-kl-散度-kullback-leibler-divergence&quot;&gt;1. 相对熵 — KL 散度 ： Kullback-Leibler divergence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-交叉熵-cross-entropy&quot;&gt;2. 交叉熵 - cross entropy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-交叉熵与kl散度的关系&quot;&gt;3. 交叉熵与KL散度的关系&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-联合熵与条件熵&quot;&gt;3. 联合熵与条件熵&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-互信息&quot;&gt;4. 互信息&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3.线性代数</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/3.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/3.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</id>
+    <published>2022-03-29T14:33:22.000Z</published>
+    <updated>2022-03-29T14:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-矩阵相乘&quot;&gt;1. 矩阵相乘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#1-范数&quot;&gt;1. 范数&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-向量的范数&quot;&gt;1. 向量的范数&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-矩阵的范数&quot;&gt;2. 矩阵的范数&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-特征值分解特征向量&quot;&gt;4. 特征值分解，特征向量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6-条件概率&quot;&gt;6. 条件概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#7-联合概率与边缘概率&quot;&gt;7. 联合概率与边缘概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#8-独立性与条件独立性&quot;&gt;8. 独立性与条件独立性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#8-期望方差协方差-相关系数&quot;&gt;8. 期望，方差，协方差， 相关系数&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-期望&quot;&gt;1. 期望&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-方差&quot;&gt;2. 方差&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-协方差&quot;&gt;3. 协方差&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-相关系数&quot;&gt;4. 相关系数&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#qa&quot;&gt;QA&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-矩阵正定性&quot;&gt;1. 矩阵正定性&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2.高数</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/2.%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/2.%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</id>
+    <published>2022-03-29T13:33:22.000Z</published>
+    <updated>2022-03-29T13:33:22.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.概率论</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/1.%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/1.%E6%A6%82%E7%8E%87%E8%AE%BA/</id>
+    <published>2022-03-29T12:33:22.000Z</published>
+    <updated>2022-03-29T12:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Contents&quot;&gt;&lt;a href=&quot;#Contents&quot; class=&quot;headerlink&quot; title=&quot;Contents&quot;&gt;&lt;/a&gt;Contents&lt;/h2&gt;&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-随机事件和概率&quot;&gt;1. 随机事件和概率&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-事件运算规律&quot;&gt;1. 事件运算规律&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-条件概率&quot;&gt;2. 条件概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-事件独立性&quot;&gt;3. 事件独立性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-五大公式&quot;&gt;4. 五大公式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-古典型概率&quot;&gt;5. 古典型概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6-几何型概率&quot;&gt;6. 几何型概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#7-n重伯努利试验&quot;&gt;7. n重伯努利试验&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-随机变量与分布&quot;&gt;2. 随机变量与分布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1离散型随机变量&quot;&gt;1.离散型随机变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-连续型随机变量&quot;&gt;2. 连续型随机变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-常见分布&quot;&gt;3. 常见分布&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-todo&quot;&gt;4. TODO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-随机变量的数学特征&quot;&gt;4. 随机变量的数学特征&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-数学期望&quot;&gt;1. 数学期望&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-方差&quot;&gt;2. 方差&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-常见分布期望与方差-todo&quot;&gt;3. 常见分布期望与方差 — TODO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-协方差&quot;&gt;4. 协方差&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-相关系数&quot;&gt;5. 相关系数&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6-独立与不相关&quot;&gt;6. 独立与不相关&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-知识点&quot;&gt;5. 知识点&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-古典概率模型&quot;&gt;1. 古典概率模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-几何概率&quot;&gt;2. 几何概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-数学期望&quot;&gt;3. 数学期望&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-贝叶斯&quot;&gt;4. 贝叶斯&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6-贝叶斯定理&quot;&gt;6. 贝叶斯定理&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-基本概率&quot;&gt;1. 基本概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-两大规则&quot;&gt;2. 两大规则&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-实例说明&quot;&gt;3. 实例说明&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#qa&quot;&gt;QA&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-简单古典概率&quot;&gt;1. 简单古典概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-纸牌问题&quot;&gt;2. 纸牌问题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-棍子问题&quot;&gt;3. 棍子问题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-采样问题&quot;&gt;4. 采样问题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-贝叶斯&quot;&gt;5. 贝叶斯&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6-假期期望&quot;&gt;6. 假期期望&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#7-下雨概率&quot;&gt;7. 下雨概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#8-见面概率&quot;&gt;8. 见面概率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#9-为何推荐使用高斯分布&quot;&gt;9. 为何推荐使用高斯分布？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#10-玫瑰花&quot;&gt;10. 玫瑰花&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#11-切比雪夫不等式&quot;&gt;11. 切比雪夫不等式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#12-0~1均匀分布的随机器如何变化成均值为0方差为1的随机器&quot;&gt;12. 0~1均匀分布的随机器如何变化成均值为0，方差为1的随机器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#13-红蓝球&quot;&gt;13. 红蓝球&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="基础数学知识" scheme="http://earyant.github.io/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>心情篇</title>
+    <link href="http://earyant.github.io/posts/%E6%97%A5%E8%AE%B0/%E5%BF%83%E6%83%85%E7%AF%87/"/>
+    <id>http://earyant.github.io/posts/%E6%97%A5%E8%AE%B0/%E5%BF%83%E6%83%85%E7%AF%87/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;心情篇集合，心情好了和心情不好了，都来这里逛一逛，看看当时为啥心情不好，回头看看，哪些事情还值不值得。&lt;br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AI换脸</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/AI%E6%8D%A2%E8%84%B8/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/AI%E6%8D%A2%E8%84%B8/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NLP大纲</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/NLP%20%E5%A4%A7%E7%BA%B2/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/NLP%20%E5%A4%A7%E7%BA%B2/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法工程师修炼之道</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#算法工程师-修炼之道&quot;&gt;算法工程师 修炼之道&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>idea</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/%E4%B8%80%E4%BA%9Bidea/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/%E4%B8%80%E4%BA%9Bidea/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深度合成技术</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%90%88%E6%88%90%E6%8A%80%E6%9C%AF/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%90%88%E6%88%90%E6%8A%80%E6%9C%AF/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HR问题</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/HR%20%E9%97%AE%E9%A2%98/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/HR%20%E9%97%AE%E9%A2%98/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#hr-问题&quot;&gt;HR 问题&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-缺点优点&quot;&gt;1. 缺点，优点&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-自我介绍&quot;&gt;2. 自我介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-薪资待遇&quot;&gt;3. 薪资待遇&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-兴趣爱好&quot;&gt;4. 兴趣爱好&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-5-年内职业规划&quot;&gt;5. 5 年内职业规划&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6-如何看待加班&quot;&gt;6. 如何看待加班&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#7-希望与怎样的领导共事&quot;&gt;7. 希望与怎样的领导共事&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#8-若领导布置大量工作完成时间又十分有限为了完成任务应该怎么办&quot;&gt;8. 若领导布置大量工作，完成时间又十分有限，为了完成任务，应该怎么办？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#9-为什么应聘这个岗位&quot;&gt;9. 为什么应聘这个岗位&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#10-有什么想问的吗&quot;&gt;10. 有什么想问的吗？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#11-最不喜欢的老师是谁&quot;&gt;11. 最不喜欢的老师是谁？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="老宋渣渣算法面经" scheme="http://earyant.github.io/tags/%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>优秀算法博客</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#预训练语言模型&quot;&gt;预训练语言模型&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="老宋渣渣算法面经" scheme="http://earyant.github.io/tags/%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>整理简历中的点</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%8B%E7%AE%80%E5%8E%86%E4%B8%AD%E7%9A%84%E7%82%B9/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%8B%E7%AE%80%E5%8E%86%E4%B8%AD%E7%9A%84%E7%82%B9/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#整理一下简历中的点&quot;&gt;整理一下简历中的点&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#模型篇&quot;&gt;模型篇&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="老宋渣渣算法面经" scheme="http://earyant.github.io/tags/%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
+  
+</feed>
