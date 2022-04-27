@@ -19,24 +19,24 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"earyant.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":true,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"yuyananyyn.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":true,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="1. 基本概念 1. 条件概率 2. 先验概率 3. 后验概率   2. 贝叶斯公式 3. 条件独立假设 4. 从机器学习视角理解朴素贝叶斯 朴素贝叶斯中的三种模型 1. 多项式模型 2. 高斯模型 3. 伯努利模型   QA 1. 朴素贝叶斯为何朴素？ 2. 朴素贝叶斯分类中某个类别的概率为0怎么办？ 3. 朴素贝叶斯的要求是什么？ 4. 朴素贝叶斯的优缺点？ 5. 朴素贝叶斯与 LR 区别">
 <meta property="og:type" content="article">
 <meta property="og:title" content="分类模型1-朴素贝叶斯">
-<meta property="og:url" content="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/4-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B4%20-%20%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/index.html">
-<meta property="og:site_name" content="Earyant的技术博客">
+<meta property="og:url" content="http://yuyananyyn.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/4-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B4%20-%20%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/index.html">
+<meta property="og:site_name" content="洋洋的技术博客">
 <meta property="og:description" content="1. 基本概念 1. 条件概率 2. 先验概率 3. 后验概率   2. 贝叶斯公式 3. 条件独立假设 4. 从机器学习视角理解朴素贝叶斯 朴素贝叶斯中的三种模型 1. 多项式模型 2. 高斯模型 3. 伯努利模型   QA 1. 朴素贝叶斯为何朴素？ 2. 朴素贝叶斯分类中某个类别的概率为0怎么办？ 3. 朴素贝叶斯的要求是什么？ 4. 朴素贝叶斯的优缺点？ 5. 朴素贝叶斯与 LR 区别">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-03-12T15:33:22.000Z">
 <meta property="article:modified_time" content="2022-03-12T15:33:22.000Z">
-<meta property="article:author" content="Earyant">
+<meta property="article:author" content="洋洋">
 <meta property="article:tag" content="机器学习知识整理">
 <meta property="article:tag" content="机器学习基础">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/4-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B4%20-%20%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/">
+<link rel="canonical" href="http://yuyananyyn.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/4-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B4%20-%20%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/">
 
 
 <script id="page-configurations">
@@ -49,7 +49,7 @@
   };
 </script>
 
-  <title>分类模型1-朴素贝叶斯 | Earyant的技术博客</title>
+  <title>分类模型1-朴素贝叶斯 | 洋洋的技术博客</title>
   
 
 
@@ -80,7 +80,7 @@
   </style>
 </noscript>
 
-<link rel="alternate" href="/atom.xml" title="Earyant的技术博客" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="洋洋的技术博客" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -101,10 +101,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Earyant的技术博客</h1>
+      <h1 class="site-title">洋洋的技术博客</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">欢迎来到Earyant的技术博客，在这里我将与你分享新技术。</p>
+      <p class="site-subtitle" itemprop="description">欢迎来到洋洋的技术博客，在这里我将与你分享新技术。</p>
   </div>
 
   <div class="site-nav-right">
@@ -209,16 +209,16 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/4-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B4%20-%20%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/">
+    <link itemprop="mainEntityOfPage" href="http://yuyananyyn.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/4-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B4%20-%20%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/me/me2.png">
-      <meta itemprop="name" content="Earyant">
+      <meta itemprop="name" content="洋洋">
       <meta itemprop="description" content="个人技术博客，分享开发中遇到的问题，以及想学的新技术，会持续更新，可以订阅rss。">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Earyant的技术博客">
+      <meta itemprop="name" content="洋洋的技术博客">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -519,9 +519,9 @@ P(Y|X_1, X_2) = \frac{P(X_1|Y) P(X_2|Y) P(Y)}{P(X_1)P(X_2)}</script><p><strong>�
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Earyant"
+    <img class="site-author-image" itemprop="image" alt="洋洋"
       src="/images/me/me2.png">
-  <p class="site-author-name" itemprop="name">Earyant</p>
+  <p class="site-author-name" itemprop="name">洋洋</p>
   <div class="site-description" itemprop="description">个人技术博客，分享开发中遇到的问题，以及想学的新技术，会持续更新，可以订阅rss。</div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -610,7 +610,7 @@ P(Y|X_1, X_2) = \frac{P(X_1|Y) P(X_2|Y) P(Y)}{P(X_1)P(X_2)}</script><p><strong>�
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Earyant</span>
+  <span class="author" itemprop="copyrightHolder">洋洋</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
