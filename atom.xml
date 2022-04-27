@@ -6,7 +6,7 @@
   <link href="http://earyant.github.io/atom.xml" rel="self"/>
   
   <link href="http://earyant.github.io/"/>
-  <updated>2022-03-31T07:06:27.000Z</updated>
+  <updated>2022-03-31T15:33:22.000Z</updated>
   <id>http://earyant.github.io/</id>
   
   <author>
@@ -15,54 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Java书单</title>
-    <link href="http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/Java%E4%B9%A6%E5%8D%95/"/>
-    <id>http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/Java%E4%B9%A6%E5%8D%95/</id>
-    <published>2022-03-31T07:06:27.000Z</published>
-    <updated>2022-03-31T07:06:27.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="书单" scheme="http://earyant.github.io/tags/%E4%B9%A6%E5%8D%95/"/>
-    
-    <category term="java" scheme="http://earyant.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>机器学习书单</title>
-    <link href="http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%A6%E5%8D%95/"/>
-    <id>http://earyant.github.io/posts/%E4%B9%A6%E5%8D%95/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%A6%E5%8D%95/</id>
-    <published>2022-03-31T07:00:25.000Z</published>
-    <updated>2022-03-31T07:00:25.000Z</updated>
-    
-    
-    <summary type="html">&lt;!-- toc --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#机器学习&quot;&gt;机器学习&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#python实践&quot;&gt;python实践&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#深度学习&quot;&gt;深度学习&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#强化学习&quot;&gt;强化学习&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    
-    <category term="书单" scheme="http://earyant.github.io/tags/%E4%B9%A6%E5%8D%95/"/>
-    
-    <category term="机器学习" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
   
   <entry>
     <title>8.高斯分布</title>
@@ -442,21 +394,6 @@
   </entry>
   
   <entry>
-    <title>心情篇</title>
-    <link href="http://earyant.github.io/posts/%E6%97%A5%E8%AE%B0/%E5%BF%83%E6%83%85%E7%AF%87/"/>
-    <id>http://earyant.github.io/posts/%E6%97%A5%E8%AE%B0/%E5%BF%83%E6%83%85%E7%AF%87/</id>
-    <published>2022-03-12T15:33:22.000Z</published>
-    <updated>2022-03-12T15:33:22.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;心情篇集合，心情好了和心情不好了，都来这里逛一逛，看看当时为啥心情不好，回头看看，哪些事情还值不值得。&lt;br&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>AI换脸</title>
     <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/AI%E6%8D%A2%E8%84%B8/"/>
     <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/AI%E6%8D%A2%E8%84%B8/</id>
@@ -637,6 +574,137 @@
     <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
     
     <category term="老宋渣渣算法面经" scheme="http://earyant.github.io/tags/%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>提前批NLP面经</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E6%8F%90%E5%89%8D%E6%89%B9%20NLP%20%E5%87%89%E7%BB%8F/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E6%8F%90%E5%89%8D%E6%89%B9%20NLP%20%E5%87%89%E7%BB%8F/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#oppo-提前批&quot;&gt;OPPO 提前批&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#一面&quot;&gt;一面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#二面-总监部长面&quot;&gt;二面 - 总监/部长面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#为啥凉-自我分析安慰一波&quot;&gt;为啥凉 - 自我分析(安慰)一波&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#今日头条凉经&quot;&gt;今日头条凉经&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-一面&quot;&gt;1. 一面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-原因分析&quot;&gt;2. 原因分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#提前批-阿里大文娱&quot;&gt;提前批 - 阿里大文娱&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-一面&quot;&gt;1. 一面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-二面&quot;&gt;2. 二面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#自我分析&quot;&gt;自我分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#学霸批-拼多多&quot;&gt;学霸批 - 拼多多&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-一面-hr&quot;&gt;1. 一面 - hr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-二面-1&quot;&gt;2. 二面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#三面&quot;&gt;三面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#自我分析-1&quot;&gt;自我分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#网易-提前批&quot;&gt;网易- 提前批&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-一面-1&quot;&gt;1. 一面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#二面&quot;&gt;二面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#总监面&quot;&gt;总监面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#hr面-15分钟&quot;&gt;HR面 - 15分钟&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#360-垃圾&quot;&gt;360 - 垃圾&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#一面-10分钟&quot;&gt;一面 - 10分钟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#二面-10分钟&quot;&gt;二面 - 10分钟&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#小米&quot;&gt;小米&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#一面-1&quot;&gt;一面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#二面-1&quot;&gt;二面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#搜狗&quot;&gt;搜狗&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-一面-2&quot;&gt;1. 一面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-二面-2&quot;&gt;2. 二面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#猿辅导&quot;&gt;猿辅导&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="老宋渣渣算法面经" scheme="http://earyant.github.io/tags/%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试套路</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E9%9D%A2%E8%AF%95%E5%A5%97%E8%B7%AF/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/10-%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/%E9%9D%A2%E8%AF%95%E5%A5%97%E8%B7%AF/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-自我介绍&quot;&gt;1. 自我介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-看了这么多论文有什么idea吗快手第一问&quot;&gt;2. 看了这么多论文，有什么idea吗？（快手第一问）&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-简单idea-文本分类在做ing&quot;&gt;1. 简单idea — 文本分类（在做ing）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-复杂一点的idea-阅读理解&quot;&gt;2. 复杂一点的idea — 阅读理解&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-多维向量融合-多种数据集&quot;&gt;3. 多维向量融合 — 多种数据集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-探索-attention-在语义匹配机制中的选择&quot;&gt;4. 探索 Attention 在语义匹配机制中的选择&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-关于预训练语言模型-知识图谱-雏形做不了没资源&quot;&gt;3. 关于预训练语言模型 + 知识图谱  - 雏形（做不了，没资源）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-预训练语言模型-自然语言生成-下一个爆点雏形&quot;&gt;4. 预训练语言模型 + 自然语言生成 — 下一个爆点（雏形）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-信息融合-受到-char-word-embdding-启发&quot;&gt;5. 信息融合 - 受到 char + word embdding 启发、&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-你有什么想问的吗&quot;&gt;3. 你有什么想问的吗&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-hr-的提问&quot;&gt;4. HR 的提问&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-部门领导的提问&quot;&gt;5. 部门领导的提问&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="老宋渣渣算法面经" scheme="http://earyant.github.io/tags/%E8%80%81%E5%AE%8B%E6%B8%A3%E6%B8%A3%E7%AE%97%E6%B3%95%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Pytorch-Transformer</title>
+    <link href="http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/11-%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/Pytorch-Transformer/"/>
+    <id>http://earyant.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/11-%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/Pytorch-Transformer/</id>
+    <published>2022-03-12T15:33:22.000Z</published>
+    <updated>2022-03-12T15:33:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#pytorch-transformer&quot;&gt;Pytorch-Transformer&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#bert&quot;&gt;BERT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+    <category term="机器学习知识整理" scheme="http://earyant.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    
+    <category term="源码阅读" scheme="http://earyant.github.io/tags/%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
