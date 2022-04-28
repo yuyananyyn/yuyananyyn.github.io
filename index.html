@@ -137,7 +137,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">232</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">233</span></a>
 
   </li>
         <li class="menu-item menu-item-相册">
@@ -204,7 +204,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yuyananyyn.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/">
+    <link itemprop="mainEntityOfPage" href="http://yuyananyyn.github.io/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%AC%BA%E8%AF%88%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/me/me2.png">
@@ -218,7 +218,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" class="post-title-link" itemprop="url">机器学习知识整理</a>
+            <a href="/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%AC%BA%E8%AF%88%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87/" class="post-title-link" itemprop="url">欺诈相关论文</a>
         </h2>
 
         <div class="post-meta">
@@ -228,7 +228,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2022-03-30 19:17:03" itemprop="dateCreated datePublished" datetime="2022-03-30T19:17:03+08:00">2022-03-30</time>
+              <time title="创建时间：2022-04-28 13:34:46" itemprop="dateCreated datePublished" datetime="2022-04-28T13:34:46+08:00">2022-04-28</time>
             </span>
 
           <br>
@@ -237,14 +237,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>16k</span>
+              <span>3.8k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>15 分钟</span>
+              <span>3 分钟</span>
             </span>
 
         </div>
@@ -256,53 +256,63 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <blockquote>
-<p>机器学习相关知识点整理，</p>
-</blockquote>
-<!-- toc -->
-<ul>
-<li><a href="#编程语言相关">编程语言相关</a><ul>
-<li><a href="#java">java</a></li>
-<li><a href="#python">python</a></li>
-</ul>
-</li>
-<li><a href="#数学基础">数学基础</a><ul>
-<li><a href="#抽样方法">抽样方法</a><ul>
-<li><a href="#1分层抽样的适用范围">1.分层抽样的适用范围？</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#机器学习相关">机器学习相关</a><ul>
-<li><a href="#线性回归和lr">线性回归和LR</a></li>
-<li><a href="#gbdt-xgboost相关">gbdt、xgboost相关</a></li>
-<li><a href="#rf相关">RF相关</a></li>
-<li><a href="#kmeans相关">kmeans相关</a></li>
-<li><a href="#em-hmm-crf相关">EM HMM CRF相关</a></li>
-<li><a href="#决策树相关">决策树相关</a></li>
-<li><a href="#svm相关">SVM相关</a></li>
-<li><a href="#降维算法相关">降维算法相关</a><ul>
-<li><a href="#各种ml模型比较">各种ML模型比较</a></li>
-</ul>
-</li>
-<li><a href="#其他">其他</a></li>
-</ul>
-</li>
-<li><a href="#深度学习相关">深度学习相关</a></li>
-<li><a href="#自然语言处理相关">自然语言处理相关</a></li>
-<li><a href="#手撕算法场景题">手撕算法&amp;场景题</a></li>
-<li><a href="#面经分享">面经分享</a></li>
-<li><a href="#一些有用的知识整理">一些有用的知识整理</a></li>
-</ul>
-<!-- tocstop -->
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <p>欺诈检测相关论文<br>一、分类<br>1、GEM<br>2、HACUD<br>3、MAHINDER<br>4、Semi-GNN<br>5、MvMoE<br>6、AMG-DP<br>7、AddGraph<br>8、NetWalk<br>9、DOMINANT<br>10、GraphConsis<br>11、PC-GNN<br>12、TRUST</p>
+<p>1、GEM</p>
+<p>来自蚂蚁金服的论文，他们提出GEM模型，是一个异质图神经网络方法，用于支付宝中恶意账户的检测。数据量有4.5亿个用户。</p>
+<p>作者从数据中总结了来自攻击者的两个主要特征：<br>1、攻击者要承受计算资源带来的成本，所以大多数攻击者只在少数计算资源上注册或频繁地登录。（x：设备id，y：账户id，左：正常，右：异常）<br>2、攻击者受攻击时间的限制，通常要在很短的时间内完成既定目标，所以恶意账户的行为可能在有限的时间内爆发。（x：时间，y：账户id，左：正常，右：异常）</p>
+<p>异质图构建：<br>设备聚集：从不同设备角度（如ip地址，电话等）提取D个子图，每个子图都包含G中所有节点。<br>行为聚集：矩阵X=[N,p+|D|], 前p维 表示账户i行为，0～T时间划分p个时间段，每个时间段有一个行为次数，最后D为表示所属设备（子图）的one-hot编码</p>
+<p>2、HACUD</p>
+<p>来自蚂蚁金服的论文，他们提出HACUD模型，将实际场景建模为属性异质信息网络。用于信用支付中套现用户的检测。数据量级5百万用户</p>
+<p>数据：<br>三类节点：用户U、商家M、设备D，每个节点都有丰富的属性<br>两种元路径：UU（用户和用户有资金交易）、UMU（用户和用户有相同的交易商家）</p>
+<p>作者从数据中观测到两个现象：<br>1、套现率高的用户往往有更多的套现邻居。这意味着用户的特征可以源于他们基于元路径的邻居的特征。<br>2、不同的基于元路径的邻居对用户有不同的影响。这意味着不同元路径对用户重要程度不同，可以用注意力机制去捕获。</p>
+<p>模型：<br>初始数据是 用户属性 和 基于元路径的用户邻居属性。<br>然后使用分层注意力机制获得在邻居粒度和邻居类型层面的向量表示。<br>最后将用户表示送入分类器训练模型。</p>
+<p>3、MAHINDER</p>
+<p>来自阿里的论文，他们提出MAHINDER模型，将实际场景建模为多视图属性异质信息网络。用于信用支付中违约用户的检测。数据量189万用户</p>
+<p>属性异质网络划分为三种视图：社交视图、资金视图、设备视图</p>
+<p>作者从数据中观测到的现象：<br>1、不同视图下不同直接违约邻居数量下，违约者的概率和提升有明显差异。（说明1、用户的特征可以用邻居的特征来表示，2、不同的path重要性不同，使用attention机制进行捕获）<br>2、同一视图不同链接类型下，违约者的概率有明显差异。（所以对meta-path编码的时候，链接类型也进行了编码）</p>
+<p>模型：<br>首先人工选取元路径；<br>其次使用LSTM建模元路径的细粒度语义；<br>最后使用注意力整合不同的元路径获取用户表示送入后续分类器。</p>
+<p>4、Semi-GNN</p>
+<p>来自蚂蚁金服的论文，他们提出Semi-GNN模型，将实际场景建模为异质图。用于花呗中欺诈用户的检测，是第一篇使用半监督图神经网络进行欺骗检测的论文。</p>
+<p>作者收集了4百万个有label的用户，然后从有label的用户的一跳朋友/同学/同事 中采样没有label的用户，所以一共是1亿用户。<br>从关系（朋友/同学/同事）、app、昵称、地址四个角度分别构建视图。</p>
+<p>数据现象: 欺诈常呈团伙聚集, 标注为负样本的用户, 其邻居节点也可疑.<br>基于上述假设, 受DeepWalk启发, 作者设计的无监督部分Loss希望:邻近节点的表示相似, 不同节点的表示差异较大。</p>
+<p>模型：<br>模型分为两部分：监督学习部分（左）和无监督学习部分（右），两部分模型结构相同。<br>使用层次注意机制聚合视图内特征和视图间特征，得到用户表示。<br>监督学习：利用预测的标签和实际标签计算损失<br>无监督学习：利用邻近节点的表示相似, 不同节点的表示差异较大，来计算损失。</p>
+<p>5、MvMoE</p>
+<p>这篇是来自阿里的论文，他们提出MvMoE模型，将实际场景建模为多视图异构网络。在阿里电商数据上实验，是一个信用风险预测和信用限额设置的双任务模型。数据量544万用户</p>
+<p>三种视图：user profiles、user sequential behaviors、user relationship<br>他们的数据不缺label，下个月就可以拿到这个月实验用户的label</p>
+<p>采样： 对正样例向上采样，使正样例率在10%左右。（这里的正样例 就是 违约用户）</p>
+<p>模型：<br>1、将异构多视图数据源，进行全面的用户建模。<br>2、分别采用多层感知器(MLP)、双向长短期记忆(BiLSTM)和图神经网络(GNN)对每个视图的特征进行编码。<br>3、使用层次注意机制按重要性聚合视图内特征和视图间特征。<br>4、使用视图感知专家混合结构，来捕获不同任务的更好的信息。<br>5、利用CRF任务的输出，根据财务先验知识，通过每个任务塔之间的渐进网络来引导CLS任务。</p>
+<p>6、AMG-DP</p>
+<p>来自蚂蚁金服的论文，他们提出AMG-DP模型，将实际场景建模为多重图。用于信用支付中还款拖欠用户的检测。每个月有150万用户，一共用了10个月的数据</p>
+<p>数据中观测到两个现象：<br>1、不同关系为刻画违约用户提供了不同的角度（所以作者将多重图根据关系transfer/transaction/social/use划分为不同的视图，做聚合的时候把边也考虑了进来）<br>2、有更多违约邻居的用户更可能是违约用户（所以可以通过聚合邻居的特征来表示用户）</p>
+<p>模型：<br>根据relation划分multi-view graph，<br>分别在multi-view graph上做GAT聚合，聚合包括两个点和两点之间的边的属性，<br>再对不同的关系做attention聚合，得到用户最终表示<br>最后预测用户的违约概率</p>
+<p>7、AddGraph</p>
+<p>来自阿里的论文，他们提出Addgraph模型，将实际场景建模为同质图动态图。在Digg数据集上进行异常边的检测，数据集包含3w节点、8w边</p>
+<p>假设： 认为图中存在的边是正常的边，对不存在的边进行采样认为是异常边。</p>
+<p>模型：<br>按时间段划分 t 个快照图<br>使用gcn学习快照图中每个节点的表示<br>快照节点表示序列通过attention得到short embedding<br>当前快照和最后一个快照表示得到current embedding<br>通过GRU整合short/current embedding得到最终每个节点表示</p>
+<p>通过最大化正常边和异常边之间的margin来得到损失</p>
+<p>8、NetWalk</p>
+<p>来自高校的论文，他们提出NetWalk模型，模型的主要思路是提出一种动态图embedding的方法，再用其节点表示进行异常检测。<br>作者在4个数据集上进行异常节点的检测，最大的数据集包含30w节点</p>
+<p>假设：不属于某个图聚类的点为异常点</p>
+<p>模型：<br>由网络中每个节点为起始节点，生成 walk<br>通过最小化每条walk的所有节点对距离和最小化自编码器的重构误差，来学习每个节点的向量表示。<br>通过聚类得到聚类中心点，计算新来的边/点到中心点的距离，来判断该边/点是否异常。</p>
+<p>动态图 增量维护：<br>Network为每个顶点维持一个reservoir，存放的是对顶点邻居采样的集合，集合大小是固定的。<br>新来边的时候，针对里面的每个顶点，都会以概率p替换。删除边的时候只针对删除了的顶点进行替换。<br>然后，通过reservior去产生新的walk更新网络。</p>
+<p>9、DOMINANT</p>
+<p>来自高校的论文，他们提出DOMINANT模型，将实际场景建模为同质图，进行异常节点的检测。<br>数据：使用了三个数据集，最大数据集有1w个节点<br>假设：图重构过程中属性和结构信息丢失多的节点为异常节点</p>
+<p>模型：<br>使用gcn对图中每个节点（带有属性）进行编码，<br>通过解码节点属性和图结构来学习图的结构和属性信息<br>最小化属性重构和结构重构的受损，得到每个用户的表示<br>对每个用户进行异常度打分 排序。</p>
+<p>10、GraphConsis</p>
+<p>来自高校的论文，他们提出GraphConsis模型，将实际场景建模为同质图，主要用来缓解图神经网络进行欺诈检测时的不一致问题。</p>
+<p>数据：在垃圾邮件评论数据集上进行实验，包含4w多用户和7百多万边。</p>
+<p>不一致问题：<br>针对3个不一致的解决方法：</p>
+<p>11、PC-GNN</p>
+<p>这篇来自阿里的论文，他们提出PC-GNN模型，将实际场景建模为同质图，主要用来解决图神经网络进行欺诈检测时的类别不平衡问题。</p>
+<p>数据：在垃圾邮件评论数据集上进行实验，包含4w多用户和3百多万边。</p>
+<p>类别不平衡时，如果欺诈用户聚合的邻居中有大量正常节点，就会将欺诈用户隐藏。（和上篇论文中上下文不一致类似）</p>
+<p>12、TRUST</p>
+<p>来自阿里的论文，他们提出TRUST模型，进行信用风险的预测，是一个基于元学习的半监督方法的欠抽样学习，可以解决样本不平衡问题。</p>
+<p>数据：在阿里在线电子商务消费贷款数据上进行实验，有175万用户。</p>
+<p>在该场景中，用户被分为3类，违约用户、良性用户、不确定用户（贷款了但还没到还款日期）</p>
+<p>训练：<br>采样器W1从有标记的数据集Dk中采样一部分数据V，通过训练得到一个基本分类器F；<br>未标记的数据Du通过分类器F得到数据的label，再通过采样器w2采样部分数据U；<br>用数据 V 和 U 来训练模型 F；<br>通过验证集Dv在模型F上的效果来进行反向传播；<br>循环这个过程直到收敛，整个迭代学习的过程是元学习的思想。</p>
+<p>————————————————<br>版权声明：本文为CSDN博主「cici_iii」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_37913042/article/details/119005842">https://blog.csdn.net/weixin_37913042/article/details/119005842</a></p>
+
       
     </div>
 
@@ -786,6 +796,123 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yuyananyyn.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/me/me2.png">
+      <meta itemprop="name" content="洋洋">
+      <meta itemprop="description" content="个人技术博客，分享开发中遇到的问题，以及想学的新技术，会持续更新，可以订阅rss。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="洋洋的技术博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" class="post-title-link" itemprop="url">机器学习知识整理</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-03-30 19:17:03" itemprop="dateCreated datePublished" datetime="2022-03-30T19:17:03+08:00">2022-03-30</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>16k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>15 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>机器学习相关知识点整理，</p>
+</blockquote>
+<!-- toc -->
+<ul>
+<li><a href="#编程语言相关">编程语言相关</a><ul>
+<li><a href="#java">java</a></li>
+<li><a href="#python">python</a></li>
+</ul>
+</li>
+<li><a href="#数学基础">数学基础</a><ul>
+<li><a href="#抽样方法">抽样方法</a><ul>
+<li><a href="#1分层抽样的适用范围">1.分层抽样的适用范围？</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#机器学习相关">机器学习相关</a><ul>
+<li><a href="#线性回归和lr">线性回归和LR</a></li>
+<li><a href="#gbdt-xgboost相关">gbdt、xgboost相关</a></li>
+<li><a href="#rf相关">RF相关</a></li>
+<li><a href="#kmeans相关">kmeans相关</a></li>
+<li><a href="#em-hmm-crf相关">EM HMM CRF相关</a></li>
+<li><a href="#决策树相关">决策树相关</a></li>
+<li><a href="#svm相关">SVM相关</a></li>
+<li><a href="#降维算法相关">降维算法相关</a><ul>
+<li><a href="#各种ml模型比较">各种ML模型比较</a></li>
+</ul>
+</li>
+<li><a href="#其他">其他</a></li>
+</ul>
+</li>
+<li><a href="#深度学习相关">深度学习相关</a></li>
+<li><a href="#自然语言处理相关">自然语言处理相关</a></li>
+<li><a href="#手撕算法场景题">手撕算法&amp;场景题</a></li>
+<li><a href="#面经分享">面经分享</a></li>
+<li><a href="#一些有用的知识整理">一些有用的知识整理</a></li>
+</ul>
+<!-- tocstop -->
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yuyananyyn.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/4.%E4%BF%A1%E6%81%AF%E8%AE%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1054,143 +1181,6 @@ e^{ix} = cosx + isinx</script>
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yuyananyyn.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/1.%E6%A6%82%E7%8E%87%E8%AE%BA/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/me/me2.png">
-      <meta itemprop="name" content="洋洋">
-      <meta itemprop="description" content="个人技术博客，分享开发中遇到的问题，以及想学的新技术，会持续更新，可以订阅rss。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="洋洋的技术博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/1.%E6%A6%82%E7%8E%87%E8%AE%BA/" class="post-title-link" itemprop="url">1.概率论</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-03-29 20:33:22" itemprop="dateCreated datePublished" datetime="2022-03-29T20:33:22+08:00">2022-03-29</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>4.1k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>4 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h2><!-- toc -->
-<ul>
-<li><a href="#1-随机事件和概率">1. 随机事件和概率</a><ul>
-<li><a href="#1-事件运算规律">1. 事件运算规律</a></li>
-<li><a href="#2-条件概率">2. 条件概率</a></li>
-<li><a href="#3-事件独立性">3. 事件独立性</a></li>
-<li><a href="#4-五大公式">4. 五大公式</a></li>
-<li><a href="#5-古典型概率">5. 古典型概率</a></li>
-<li><a href="#6-几何型概率">6. 几何型概率</a></li>
-<li><a href="#7-n重伯努利试验">7. n重伯努利试验</a></li>
-</ul>
-</li>
-<li><a href="#2-随机变量与分布">2. 随机变量与分布</a><ul>
-<li><a href="#1离散型随机变量">1.离散型随机变量</a></li>
-<li><a href="#2-连续型随机变量">2. 连续型随机变量</a></li>
-<li><a href="#3-常见分布">3. 常见分布</a></li>
-<li><a href="#4-todo">4. TODO</a></li>
-</ul>
-</li>
-<li><a href="#4-随机变量的数学特征">4. 随机变量的数学特征</a><ul>
-<li><a href="#1-数学期望">1. 数学期望</a></li>
-<li><a href="#2-方差">2. 方差</a></li>
-<li><a href="#3-常见分布期望与方差-todo">3. 常见分布期望与方差 — TODO</a></li>
-<li><a href="#4-协方差">4. 协方差</a></li>
-<li><a href="#5-相关系数">5. 相关系数</a></li>
-<li><a href="#6-独立与不相关">6. 独立与不相关</a></li>
-</ul>
-</li>
-<li><a href="#5-知识点">5. 知识点</a><ul>
-<li><a href="#1-古典概率模型">1. 古典概率模型</a></li>
-<li><a href="#2-几何概率">2. 几何概率</a></li>
-<li><a href="#3-数学期望">3. 数学期望</a></li>
-<li><a href="#4-贝叶斯">4. 贝叶斯</a></li>
-</ul>
-</li>
-<li><a href="#6-贝叶斯定理">6. 贝叶斯定理</a><ul>
-<li><a href="#1-基本概率">1. 基本概率</a></li>
-<li><a href="#2-两大规则">2. 两大规则</a></li>
-<li><a href="#3-实例说明">3. 实例说明</a></li>
-</ul>
-</li>
-<li><a href="#qa">QA</a><ul>
-<li><a href="#1-简单古典概率">1. 简单古典概率</a></li>
-<li><a href="#2-纸牌问题">2. 纸牌问题</a></li>
-<li><a href="#3-棍子问题">3. 棍子问题</a></li>
-<li><a href="#4-采样问题">4. 采样问题</a></li>
-<li><a href="#5-贝叶斯">5. 贝叶斯</a></li>
-<li><a href="#6-假期期望">6. 假期期望</a></li>
-<li><a href="#7-下雨概率">7. 下雨概率</a></li>
-<li><a href="#8-见面概率">8. 见面概率</a></li>
-<li><a href="#9-为何推荐使用高斯分布">9. 为何推荐使用高斯分布？</a></li>
-<li><a href="#10-玫瑰花">10. 玫瑰花</a></li>
-<li><a href="#11-切比雪夫不等式">11. 切比雪夫不等式</a></li>
-<li><a href="#12-0~1均匀分布的随机器如何变化成均值为0方差为1的随机器">12. 0~1均匀分布的随机器如何变化成均值为0，方差为1的随机器</a></li>
-<li><a href="#13-红蓝球">13. 红蓝球</a></li>
-</ul>
-</li>
-</ul>
-<!-- tocstop -->
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/1-%E5%9F%BA%E7%A1%80%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/1.%E6%A6%82%E7%8E%87%E8%AE%BA/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1262,7 +1252,7 @@ e^{ix} = cosx + isinx</script>
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">232</span>
+          <span class="site-state-item-count">233</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1348,12 +1338,12 @@ e^{ix} = cosx + isinx</script>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">726k</span>
+    <span title="站点总字数">730k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">11:01</span>
+    <span title="站点阅读时长">11:04</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>

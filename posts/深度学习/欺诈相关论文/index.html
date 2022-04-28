@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+<meta name="referrer" content="no-referrer"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yuyananyyn.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":true,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="欺诈检测相关论文一、分类1、GEM2、HACUD3、MAHINDER4、Semi-GNN5、MvMoE6、AMG-DP7、AddGraph8、NetWalk9、DOMINANT10、GraphConsis11、PC-GNN12、TRUST 1、GEM 来自蚂蚁金服的论文，他们提出GEM模型，是一个异质图神经网络方法，用于支付宝中恶意账户的检测。数据量有4.5亿个用户。 作者从数据中总结了来自攻击者">
+<meta property="og:type" content="article">
+<meta property="og:title" content="欺诈相关论文">
+<meta property="og:url" content="http://yuyananyyn.github.io/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%AC%BA%E8%AF%88%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87/index.html">
+<meta property="og:site_name" content="洋洋的技术博客">
+<meta property="og:description" content="欺诈检测相关论文一、分类1、GEM2、HACUD3、MAHINDER4、Semi-GNN5、MvMoE6、AMG-DP7、AddGraph8、NetWalk9、DOMINANT10、GraphConsis11、PC-GNN12、TRUST 1、GEM 来自蚂蚁金服的论文，他们提出GEM模型，是一个异质图神经网络方法，用于支付宝中恶意账户的检测。数据量有4.5亿个用户。 作者从数据中总结了来自攻击者">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-04-28T05:34:46.000Z">
+<meta property="article:modified_time" content="2022-04-28T05:34:46.000Z">
+<meta property="article:author" content="洋洋">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yuyananyyn.github.io/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%AC%BA%E8%AF%88%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>欺诈相关论文 | 洋洋的技术博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="洋洋的技术博客" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">洋洋的技术博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">欢迎来到洋洋的技术博客，在这里我将与你分享新技术。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">53</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">4</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">233</span></a>
+
+  </li>
+        <li class="menu-item menu-item-相册">
+
+    <a href="/gallery/" rel="section"><i class="fa fa-camera-retro fa-fw"></i>相册</a>
+
+  </li>
+        <li class="menu-item menu-item-留言板">
+
+    <a href="/guestbook/" rel="section"><i class="fa fa-comment fa-fw"></i>留言板</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <a href="https://github.com/earyantLe" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yuyananyyn.github.io/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%AC%BA%E8%AF%88%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/me/me2.png">
+      <meta itemprop="name" content="洋洋">
+      <meta itemprop="description" content="个人技术博客，分享开发中遇到的问题，以及想学的新技术，会持续更新，可以订阅rss。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="洋洋的技术博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          欺诈相关论文
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-04-28 13:34:46" itemprop="dateCreated datePublished" datetime="2022-04-28T13:34:46+08:00">2022-04-28</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>欺诈检测相关论文<br>一、分类<br>1、GEM<br>2、HACUD<br>3、MAHINDER<br>4、Semi-GNN<br>5、MvMoE<br>6、AMG-DP<br>7、AddGraph<br>8、NetWalk<br>9、DOMINANT<br>10、GraphConsis<br>11、PC-GNN<br>12、TRUST</p>
+<p>1、GEM</p>
+<p>来自蚂蚁金服的论文，他们提出GEM模型，是一个异质图神经网络方法，用于支付宝中恶意账户的检测。数据量有4.5亿个用户。</p>
+<p>作者从数据中总结了来自攻击者的两个主要特征：<br>1、攻击者要承受计算资源带来的成本，所以大多数攻击者只在少数计算资源上注册或频繁地登录。（x：设备id，y：账户id，左：正常，右：异常）<br>2、攻击者受攻击时间的限制，通常要在很短的时间内完成既定目标，所以恶意账户的行为可能在有限的时间内爆发。（x：时间，y：账户id，左：正常，右：异常）</p>
+<p>异质图构建：<br>设备聚集：从不同设备角度（如ip地址，电话等）提取D个子图，每个子图都包含G中所有节点。<br>行为聚集：矩阵X=[N,p+|D|], 前p维 表示账户i行为，0～T时间划分p个时间段，每个时间段有一个行为次数，最后D为表示所属设备（子图）的one-hot编码</p>
+<p>2、HACUD</p>
+<p>来自蚂蚁金服的论文，他们提出HACUD模型，将实际场景建模为属性异质信息网络。用于信用支付中套现用户的检测。数据量级5百万用户</p>
+<p>数据：<br>三类节点：用户U、商家M、设备D，每个节点都有丰富的属性<br>两种元路径：UU（用户和用户有资金交易）、UMU（用户和用户有相同的交易商家）</p>
+<p>作者从数据中观测到两个现象：<br>1、套现率高的用户往往有更多的套现邻居。这意味着用户的特征可以源于他们基于元路径的邻居的特征。<br>2、不同的基于元路径的邻居对用户有不同的影响。这意味着不同元路径对用户重要程度不同，可以用注意力机制去捕获。</p>
+<p>模型：<br>初始数据是 用户属性 和 基于元路径的用户邻居属性。<br>然后使用分层注意力机制获得在邻居粒度和邻居类型层面的向量表示。<br>最后将用户表示送入分类器训练模型。</p>
+<p>3、MAHINDER</p>
+<p>来自阿里的论文，他们提出MAHINDER模型，将实际场景建模为多视图属性异质信息网络。用于信用支付中违约用户的检测。数据量189万用户</p>
+<p>属性异质网络划分为三种视图：社交视图、资金视图、设备视图</p>
+<p>作者从数据中观测到的现象：<br>1、不同视图下不同直接违约邻居数量下，违约者的概率和提升有明显差异。（说明1、用户的特征可以用邻居的特征来表示，2、不同的path重要性不同，使用attention机制进行捕获）<br>2、同一视图不同链接类型下，违约者的概率有明显差异。（所以对meta-path编码的时候，链接类型也进行了编码）</p>
+<p>模型：<br>首先人工选取元路径；<br>其次使用LSTM建模元路径的细粒度语义；<br>最后使用注意力整合不同的元路径获取用户表示送入后续分类器。</p>
+<p>4、Semi-GNN</p>
+<p>来自蚂蚁金服的论文，他们提出Semi-GNN模型，将实际场景建模为异质图。用于花呗中欺诈用户的检测，是第一篇使用半监督图神经网络进行欺骗检测的论文。</p>
+<p>作者收集了4百万个有label的用户，然后从有label的用户的一跳朋友/同学/同事 中采样没有label的用户，所以一共是1亿用户。<br>从关系（朋友/同学/同事）、app、昵称、地址四个角度分别构建视图。</p>
+<p>数据现象: 欺诈常呈团伙聚集, 标注为负样本的用户, 其邻居节点也可疑.<br>基于上述假设, 受DeepWalk启发, 作者设计的无监督部分Loss希望:邻近节点的表示相似, 不同节点的表示差异较大。</p>
+<p>模型：<br>模型分为两部分：监督学习部分（左）和无监督学习部分（右），两部分模型结构相同。<br>使用层次注意机制聚合视图内特征和视图间特征，得到用户表示。<br>监督学习：利用预测的标签和实际标签计算损失<br>无监督学习：利用邻近节点的表示相似, 不同节点的表示差异较大，来计算损失。</p>
+<p>5、MvMoE</p>
+<p>这篇是来自阿里的论文，他们提出MvMoE模型，将实际场景建模为多视图异构网络。在阿里电商数据上实验，是一个信用风险预测和信用限额设置的双任务模型。数据量544万用户</p>
+<p>三种视图：user profiles、user sequential behaviors、user relationship<br>他们的数据不缺label，下个月就可以拿到这个月实验用户的label</p>
+<p>采样： 对正样例向上采样，使正样例率在10%左右。（这里的正样例 就是 违约用户）</p>
+<p>模型：<br>1、将异构多视图数据源，进行全面的用户建模。<br>2、分别采用多层感知器(MLP)、双向长短期记忆(BiLSTM)和图神经网络(GNN)对每个视图的特征进行编码。<br>3、使用层次注意机制按重要性聚合视图内特征和视图间特征。<br>4、使用视图感知专家混合结构，来捕获不同任务的更好的信息。<br>5、利用CRF任务的输出，根据财务先验知识，通过每个任务塔之间的渐进网络来引导CLS任务。</p>
+<p>6、AMG-DP</p>
+<p>来自蚂蚁金服的论文，他们提出AMG-DP模型，将实际场景建模为多重图。用于信用支付中还款拖欠用户的检测。每个月有150万用户，一共用了10个月的数据</p>
+<p>数据中观测到两个现象：<br>1、不同关系为刻画违约用户提供了不同的角度（所以作者将多重图根据关系transfer/transaction/social/use划分为不同的视图，做聚合的时候把边也考虑了进来）<br>2、有更多违约邻居的用户更可能是违约用户（所以可以通过聚合邻居的特征来表示用户）</p>
+<p>模型：<br>根据relation划分multi-view graph，<br>分别在multi-view graph上做GAT聚合，聚合包括两个点和两点之间的边的属性，<br>再对不同的关系做attention聚合，得到用户最终表示<br>最后预测用户的违约概率</p>
+<p>7、AddGraph</p>
+<p>来自阿里的论文，他们提出Addgraph模型，将实际场景建模为同质图动态图。在Digg数据集上进行异常边的检测，数据集包含3w节点、8w边</p>
+<p>假设： 认为图中存在的边是正常的边，对不存在的边进行采样认为是异常边。</p>
+<p>模型：<br>按时间段划分 t 个快照图<br>使用gcn学习快照图中每个节点的表示<br>快照节点表示序列通过attention得到short embedding<br>当前快照和最后一个快照表示得到current embedding<br>通过GRU整合short/current embedding得到最终每个节点表示</p>
+<p>通过最大化正常边和异常边之间的margin来得到损失</p>
+<p>8、NetWalk</p>
+<p>来自高校的论文，他们提出NetWalk模型，模型的主要思路是提出一种动态图embedding的方法，再用其节点表示进行异常检测。<br>作者在4个数据集上进行异常节点的检测，最大的数据集包含30w节点</p>
+<p>假设：不属于某个图聚类的点为异常点</p>
+<p>模型：<br>由网络中每个节点为起始节点，生成 walk<br>通过最小化每条walk的所有节点对距离和最小化自编码器的重构误差，来学习每个节点的向量表示。<br>通过聚类得到聚类中心点，计算新来的边/点到中心点的距离，来判断该边/点是否异常。</p>
+<p>动态图 增量维护：<br>Network为每个顶点维持一个reservoir，存放的是对顶点邻居采样的集合，集合大小是固定的。<br>新来边的时候，针对里面的每个顶点，都会以概率p替换。删除边的时候只针对删除了的顶点进行替换。<br>然后，通过reservior去产生新的walk更新网络。</p>
+<p>9、DOMINANT</p>
+<p>来自高校的论文，他们提出DOMINANT模型，将实际场景建模为同质图，进行异常节点的检测。<br>数据：使用了三个数据集，最大数据集有1w个节点<br>假设：图重构过程中属性和结构信息丢失多的节点为异常节点</p>
+<p>模型：<br>使用gcn对图中每个节点（带有属性）进行编码，<br>通过解码节点属性和图结构来学习图的结构和属性信息<br>最小化属性重构和结构重构的受损，得到每个用户的表示<br>对每个用户进行异常度打分 排序。</p>
+<p>10、GraphConsis</p>
+<p>来自高校的论文，他们提出GraphConsis模型，将实际场景建模为同质图，主要用来缓解图神经网络进行欺诈检测时的不一致问题。</p>
+<p>数据：在垃圾邮件评论数据集上进行实验，包含4w多用户和7百多万边。</p>
+<p>不一致问题：<br>针对3个不一致的解决方法：</p>
+<p>11、PC-GNN</p>
+<p>这篇来自阿里的论文，他们提出PC-GNN模型，将实际场景建模为同质图，主要用来解决图神经网络进行欺诈检测时的类别不平衡问题。</p>
+<p>数据：在垃圾邮件评论数据集上进行实验，包含4w多用户和3百多万边。</p>
+<p>类别不平衡时，如果欺诈用户聚合的邻居中有大量正常节点，就会将欺诈用户隐藏。（和上篇论文中上下文不一致类似）</p>
+<p>12、TRUST</p>
+<p>来自阿里的论文，他们提出TRUST模型，进行信用风险的预测，是一个基于元学习的半监督方法的欠抽样学习，可以解决样本不平衡问题。</p>
+<p>数据：在阿里在线电子商务消费贷款数据上进行实验，有175万用户。</p>
+<p>在该场景中，用户被分为3类，违约用户、良性用户、不确定用户（贷款了但还没到还款日期）</p>
+<p>训练：<br>采样器W1从有标记的数据集Dk中采样一部分数据V，通过训练得到一个基本分类器F；<br>未标记的数据Du通过分类器F得到数据的label，再通过采样器w2采样部分数据U；<br>用数据 V 和 U 来训练模型 F；<br>通过验证集Dv在模型F上的效果来进行反向传播；<br>循环这个过程直到收敛，整个迭代学习的过程是元学习的思想。</p>
+<p>————————————————<br>版权声明：本文为CSDN博主「cici_iii」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_37913042/article/details/119005842">https://blog.csdn.net/weixin_37913042/article/details/119005842</a></p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/earyantLe">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/test/test/" rel="prev" title="title">
+      <i class="fa fa-chevron-left"></i> title
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="洋洋"
+      src="/images/me/me2.png">
+  <p class="site-author-name" itemprop="name">洋洋</p>
+  <div class="site-description" itemprop="description">个人技术博客，分享开发中遇到的问题，以及想学的新技术，会持续更新，可以订阅rss。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">233</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">53</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/earyantLe" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;earyantLe" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:lirui940403@gmail.com" title="E-Mail → mailto:lirui940403@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/earyant" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;earyant" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/earyantLe" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;earyantLe" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.facebook.com/earyant" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;earyant" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://stackoverflow.com/earyant" title="StackOverflow → https:&#x2F;&#x2F;stackoverflow.com&#x2F;earyant" rel="noopener" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i>StackOverflow</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://zhuyuanxiang.github.io/" title="https:&#x2F;&#x2F;zhuyuanxiang.github.io&#x2F;" rel="noopener" target="_blank">zYx.Tom</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://mofanpy.com/" title="https:&#x2F;&#x2F;mofanpy.com&#x2F;" rel="noopener" target="_blank">mofan</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">洋洋</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">730k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">11:04</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+          load: ['[tex]/mhchem'],
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+          packages: {'[+]': ['mhchem']},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'dc57e777868f7d0d0d6e',
+      clientSecret: 'd54ae953e61c3d6fe846828c2765958a001a8654',
+      repo        : 'earyant.github.io-comment',
+      owner       : 'earyantLe',
+      admin       : ['earyantLe'],
+      id          : 'e41465fb043ba013a6febcc0b72b1682',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+
+
+</body>
+</html>
